@@ -31,6 +31,9 @@ public class Recorder : MonoBehaviour
 	void Update () 
 	{
 		//Debug.Log ("recording " + recordables.Count + " objects");
+		//DO THIS WITH A CURVE:
+		//recordInterval = 0.005f / ((gameObject.GetComponent<TimeController> ().myTimeScale));
+
 	}
 
 	public void StartRecord ()
